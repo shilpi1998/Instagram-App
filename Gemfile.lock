@@ -159,7 +159,7 @@ GEM
     rb-fsevent (0.10.4)
     rb-inotify (0.10.1)
       ffi (~> 1.0)
-    regexp_parser (1.7.1)
+    regexp_parser (1.8.0)
     rubyzip (2.3.0)
     sass (3.7.4)
       sass-listen (~> 4.0.0)
@@ -213,7 +213,7 @@ GEM
     websocket-driver (0.7.3)
       websocket-extensions (>= 0.1.0)
     websocket-extensions (0.1.5)
-    will_paginate (3.0.12)
+    will_paginate (3.1.7)
     xpath (3.2.0)
       nokogiri (~> 1.8)
     zeitwerk (2.4.0)
@@ -240,7 +240,7 @@ DEPENDENCIES
   web-console (>= 3.3.0)
   webdrivers
   webpacker (~> 4.0)
-  will_paginate (~> 3.0.5)
+  will_paginate (= 3.1.7)
 
 RUBY VERSION
    ruby 2.6.6p146

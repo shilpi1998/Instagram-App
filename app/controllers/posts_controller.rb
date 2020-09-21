@@ -1,6 +1,11 @@
 class PostsController < ApplicationController
   def index
-    @posts = Post.all
+    @posts = Post.paginate(page: params[:page], per_page: 2).order('created_at DESC')
+    #@posts = Post.all
+    respond_to do |format|
+     format.html
+     format.js
+   end
   end
 
   def new
