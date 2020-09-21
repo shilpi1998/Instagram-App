@@ -2,5 +2,6 @@
       <tr>
         <td><%= @post.caption %></td>
          <td><%= link_to image_tag(@post.image.url, class: 'media-object', size: "300x300"), @post.image.url, target: '_blank' %></td>
-         <td><%= button_to 'Destroy', @post, method: :delete, data: { confirm: 'Are you sure?' } %></td>
+         <%= link_to 'Edit', edit_post_path(@post) %> |
+         <%= link_to 'Back', posts_path %>
       </tr>
