@@ -1,0 +1,5 @@
+<h1>Instagram App </h1>
+      <tr>
+        <td><%= @post.caption %></td>
+         <%= link_to image_tag(@post.image.url, class: 'media-object', size: "300x300"), @post.image.url, target: '_blank' %>
+      </tr>
