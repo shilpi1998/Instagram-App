@@ -1,24 +1,10 @@
 # README
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+Instagram-App
 
-Things you may want to cover:
-
-* Ruby version
-
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+Description:
+• An app where user can add images and captions.
+• Implemented image uploading with the help of paperclip.
+• Feature to create, show, edit and delete posts.
+• Implemented both pagination and infinite scrolling.
+• Basic validations are also integrated.
